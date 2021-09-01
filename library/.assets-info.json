@@ -1,0 +1,101 @@
+{
+  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scenes": {
+    "time": 1630473254281.7036,
+    "uuid": "6d926002-237f-47a3-94a7-2b9e4bc8aeee",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scenes.meta": {
+    "time": 1630472860004.1223
+  },
+  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts": {
+    "time": 1630491840993.8171,
+    "uuid": "79c61d9a-b6f4-462b-b2a0-1f3b8815771c",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts.meta": {
+    "time": 1630472868926.2036
+  },
+  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Images": {
+    "time": 1630473379999.284,
+    "uuid": "a7525cfc-2e9e-4935-b155-0db851ef5d3f",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Images.meta": {
+    "time": 1630472878616.3684
+  },
+  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scenes/Start.scene": {
+    "time": 1630489854763.698,
+    "uuid": "85cb5e03-d10d-4958-a63d-3b87bc37629a",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scenes/Start.scene.meta": {
+    "time": 1630472891669.3545
+  },
+  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Images/button.png": {
+    "time": 1630473066278.5076,
+    "uuid": "5e8e8b0a-ccfc-4f75-9119-6b3180ff1029",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Images/bg.jpeg": {
+    "time": 1630473066279.1143,
+    "uuid": "f96a027b-ca6c-47ff-89cd-c052b32dfa68",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Images/button.png.meta": {
+    "time": 1630473066301.2764
+  },
+  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Images/bg.jpeg.meta": {
+    "time": 1630473066332.7
+  },
+  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scenes/gameplay.scene": {
+    "time": 1630480745984.9568,
+    "uuid": "3d85a610-fb7c-4dd8-b523-06c0cf56d9de",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scenes/gameplay.scene.meta": {
+    "time": 1630473254284.4248
+  },
+  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Images/YAgE.gif.meta": {
+    "time": 1630473332758.9004
+  },
+  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Images/char.png": {
+    "time": 1630473372844.9238,
+    "uuid": "026a0286-3d78-4924-8974-a1db41de8c09",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Images/char.png.meta": {
+    "time": 1630473372867.6748
+  },
+  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/Movement.ts": {
+    "time": 1630480025522.5615,
+    "uuid": "3596e72f-5e1a-4651-b2e0-39eda4258478",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/Movement.ts.meta": {
+    "time": 1630473480349.0144
+  },
+  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/Mouseevents.ts": {
+    "time": 1630487791824.7874,
+    "uuid": "4ca171f9-391c-4046-95e1-547ec56d36d4",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/Mouseevents.ts.meta": {
+    "time": 1630480777488.5398
+  },
+  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/Location.ts": {
+    "time": 1630490756966.7234,
+    "uuid": "18978fbf-4177-4236-b50a-b31083f082e9",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/Location.ts.meta": {
+    "time": 1630490361560.0085
+  },
+  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/Keyboard.ts": {
+    "time": 1630491840992.5808,
+    "uuid": "4e32bbc3-b191-4cfe-8a76-5fb1bf37a22c",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/Keyboard.ts.meta": {
+    "time": 1630491840996.6
+  }
+}

@@ -1,0 +1,219 @@
+2021-09-01 14:06:27-log: [Package] menu@1.0.0 enable
+2021-09-01 14:06:27-log: [Package] profile@1.0.0 enable
+2021-09-01 14:06:27-log: [Package] messages@1.0.0 enable
+2021-09-01 14:06:27-log: [Package] program@1.0.0 enable
+2021-09-01 14:06:27-log: [Package] device@1.0.1 enable
+2021-09-01 14:06:27-log: [Package] ui-kit@1.0.1 enable
+2021-09-01 14:06:27-log: [Package] tester@1.0.0 enable
+2021-09-01 14:06:27-log: [Package] preferences@1.0.0 enable
+2021-09-01 14:06:28-log: Setup mods mgr.: 357.756ms
+2021-09-01 14:06:28-log: [Package] engine@1.0.5 enable
+2021-09-01 14:06:32-log: [Package] programming@1.0.0 enable
+2021-09-01 14:06:33-log: [Package] asset-db@1.0.0 enable
+2021-09-01 14:06:33-log: [Package] console@1.0.0 enable
+2021-09-01 14:06:33-log: [Package] scene@1.0.0 enable
+2021-09-01 14:06:33-log: [Package] project@1.0.1 enable
+2021-09-01 14:06:33-log: [Package] about@1.0.0 enable
+2021-09-01 14:06:33-log: [Package] server@1.0.0 enable
+2021-09-01 14:06:33-log: [Package] utils@1.0.0 enable
+2021-09-01 14:06:33-log: [Package] assets@1.0.0 enable
+2021-09-01 14:06:33-log: [Package] inspector@1.0.0 enable
+2021-09-01 14:06:33-log: [Package] hierarchy@1.0.0 enable
+2021-09-01 14:06:35-log: [Package] preview@1.0.1 enable
+2021-09-01 14:06:36-log: [Package] builder@1.2.8 enable
+2021-09-01 14:06:37-log: [Package] node-library@1.0.0 enable
+2021-09-01 14:06:37-log: [Package] shortcuts@1.0.1 enable
+2021-09-01 14:06:37-log: [Package] importer@1.0.0 enable
+2021-09-01 14:06:37-log: [Package] package-asset@1.0.0 enable
+2021-09-01 14:06:37-log: [Package] reference-image@1.0.0 enable
+2021-09-01 14:06:37-log: [Package] channel-upload-tools@1.0.0 enable
+2021-09-01 14:06:37-log: [Package] runtime-dev-tools@1.0.0 enable
+2021-09-01 14:06:37-log: [Package] alipay-mini-game@1.0.0 enable
+2021-09-01 14:06:37-log: [Package] android@1.0.0 enable
+2021-09-01 14:06:37-log: [Package] baidu-mini-game@1.0.0 enable
+2021-09-01 14:06:37-log: [Package] bytedance-mini-game@1.0.0 enable
+2021-09-01 14:06:37-log: [Package] huawei-agc@1.0.0 enable
+2021-09-01 14:06:37-warn: ios:Developer team information not found
+2021-09-01 14:06:37-warn: Command failed: xcrun security find-identity -v -p codesigning
+xcrun: error: active developer path ("/Applications/Xcode 10.2.app/Contents/Developer") does not exist
+Use `sudo xcode-select --switch path/to/Xcode.app` to specify the Xcode that you wish to use for command line developer tools, or use `xcode-select --install` to install the standalone command line developer tools.
+See `man xcode-select` for more details.
+
+2021-09-01 14:06:37-log: [Package] ios@1.0.0 enable
+2021-09-01 14:06:37-log: [Package] ios-app-clip@1.0.0 enable
+2021-09-01 14:06:37-log: [Package] mac@1.0.0 enable
+2021-09-01 14:06:37-log: [Package] native@1.0.0 enable
+2021-09-01 14:06:37-log: [Package] ohos@1.0.0 enable
+2021-09-01 14:06:37-log: [Package] web-desktop@1.0.0 enable
+2021-09-01 14:06:37-log: [Package] web-mobile@1.0.0 enable
+2021-09-01 14:06:37-log: [Package] wechatgame@1.0.0 enable
+2021-09-01 14:06:37-log: [Package] windows@1.0.0 enable
+2021-09-01 14:06:37-log: [Package] xiaomi-quick-game@1.0.0 enable
+2021-09-01 14:06:37-log: [Package] cocos-play@1.0.0 enable
+2021-09-01 14:06:37-log: [Package] huawei-quick-game@1.0.0 enable
+2021-09-01 14:06:37-log: [Package] link-sure@1.0.0 enable
+2021-09-01 14:06:37-log: [Package] oppo-mini-game@1.0.0 enable
+2021-09-01 14:06:38-log: [Package] qtt@1.0.0 enable
+2021-09-01 14:06:38-log: [Package] vivo-mini-game@1.0.0 enable
+2021-09-01 14:06:38-log: [Package] cocos-service@3.0.1 enable
+2021-09-01 14:06:38-log: [Package] extension@3.0.8 enable
+2021-09-01 14:06:39-log: [Package] im-plugin@3.0.6 enable
+2021-09-01 14:06:39-log: [Package] lightmap@1.0.3 enable
+2021-09-01 14:06:45-warn: [Scene] Sender does not exist: 874
+2021-09-01 14:06:45-log: [Scene] begin init
+2021-09-01 14:06:45-log: [Scene] require engine end
+2021-09-01 14:06:45-log: [Scene] Serialize end
+2021-09-01 14:06:45-log: [Scene] configureStartup end
+2021-09-01 14:06:45-info: [Scene] WebGL2 device initialized.
+2021-09-01 14:06:45-log: [Scene] Cocos Creator v3.3.0
+2021-09-01 14:06:45-info: [Scene] Forward render pipeline initialized.
+2021-09-01 14:06:46-log: [Scene] openEngine end
+2021-09-01 14:06:46-log: [Scene] configureEngine end
+2021-09-01 14:07:40-log: 14:07:40 [DEBUG]: WORKAREA WIDTH 1600.00, HEIGHT 787.00
+14:07:40 [DEBUG]: FRAME SCALE = 1.00
+14:07:40 [DEBUG]: Project Config:
+14:07:40 [DEBUG]:     project dir: /Users/chandankrishnani/Documents/project/CocosCreator 2.app/Contents/Resources/resources/3d/engine-native/simulator/Debug/SimulatorApp-Mac.app/Contents/Resources/
+14:07:40 [DEBUG]:     writable path: $(PROJDIR)/
+14:07:40 [DEBUG]:     script file: $(PROJDIR)/main.js
+14:07:40 [DEBUG]:     frame size: 360 x 760
+14:07:40 [DEBUG]:     frame scale: 1.00
+14:07:40 [DEBUG]:     show console: NO
+14:07:40 [DEBUG]:     write debug log: NO ()
+14:07:40 [DEBUG]:     listen: 
+14:07:40 [DEBUG]:     debugger: none
+14:07:40 [DEBUG]:     add searching path:
+14:07:40 [DEBUG]: 
+
+
+Initializing V8, version: 8.0.426.16
+
+2021-09-01 14:07:40-log: libuv version: 1.23.1-dev
+
+2021-09-01 14:07:41-log: Number of interfaces: 7
+Debugger listening..., visit [
+
+2021-09-01 14:07:41-log:     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.171.2.25:5086/00010002-0003-4004-8005-000600070008
+    devtools://devtools/bundled/js_app.html?v8only=true&ws=127.0.0.1:5086/00010002-0003-4004-8005-000600070008
+  ] in chrome browser to debug!
+For help see https://nodejs.org/en/docs/inspector
+
+2021-09-01 14:07:43-info: [Window] Download the Vue Devtools extension for a better development experience:
+https://github.com/vuejs/vue-devtools
+2021-09-01 14:07:43-info: [Window] You are running Vue in development mode.
+Make sure to turn on production mode when deploying for production.
+See more tips at https://vuejs.org/guide/deployment.html
+2021-09-01 14:07:43-log: Debugger attached.
+
+2021-09-01 14:08:08-log: 14:08:07 [DEBUG]: In the constructor of HttpClient!
+14:08:07 [DEBUG]: iShow!
+JS: 'cc.ParticleSystem2D.color' hides inherited property 'cc.Renderable2D.color'. To make the current property override that implementation, add the `override: true` attribute please.
+
+2021-09-01 14:08:08-log: 14:08:08 [INFO]: In the default constructor of Map!
+14:08:08 [INFO]: In the default constructor of Map!
+JS: [WARN]: Read json failed: path: /Users/chandankrishnani/Documents/project/CocosCreator 2.app/Contents/Resources/resources/3d/engine-native/simulator/Debug/SimulatorApp-Mac.app/Contents/Resources/gamecaches/cacheList.json message: Unexpected end of JSON input
+
+2021-09-01 14:08:08-log: 14:08:08 [INFO]: Metal Feature Set: MTLFeatureSet_macOS_GPUFamily1_v4
+14:08:08 [INFO]: Device validator enabled.
+JS: Cocos Creator v3.3.0
+
+2021-09-01 14:08:08-log: JS: HELLLO !!!!
+
+2021-09-01 14:08:08-log: JS: Success to load scene
+
+2021-09-01 14:10:20-log: 14:10:20 [DEBUG]: WORKAREA WIDTH 1600.00, HEIGHT 799.00
+14:10:20 [DEBUG]: FRAME SCALE = 1.00
+14:10:20 [DEBUG]: Project Config:
+14:10:20 [DEBUG]:     project dir: /Users/chandankrishnani/Documents/project/CocosCreator 2.app/Contents/Resources/resources/3d/engine-native/simulator/Debug/SimulatorApp-Mac.app/Contents/Resources/
+14:10:20 [DEBUG]:     writable path: $(PROJDIR)/
+14:10:20 [DEBUG]:     script file: $(PROJDIR)/main.js
+14:10:20 [DEBUG]:     frame size: 360 x 760
+14:10:20 [DEBUG]:     frame scale: 1.00
+14:10:20 [DEBUG]:     show console: NO
+14:10:20 [DEBUG]:     write debug log: NO ()
+14:10:20 [DEBUG]:     listen: 
+14:10:20 [DEBUG]:     debugger: none
+14:10:20 [DEBUG]:     add searching path:
+14:10:20 [DEBUG]: 
+
+
+Initializing V8, version: 8.0.426.16
+libuv version: 1.23.1-dev
+
+2021-09-01 14:10:20-log: Number of interfaces: 7
+Debugger listening..., visit [
+    devtools://devtools/bundled/js_app.html?v8only=true&ws=192.171.2.25:5086/00010002-0003-4004-8005-000600070008
+    devtools://devtools/bundled/js_app.html?v8only=true&ws=127.0.0.1:5086/00010002-0003-4004-8005-000600070008
+  ] in chrome browser to debug!
+For help see https://nodejs.org/en/docs/inspector
+
+2021-09-01 14:10:22-info: [Window] Download the Vue Devtools extension for a better development experience:
+https://github.com/vuejs/vue-devtools
+2021-09-01 14:10:22-info: [Window] You are running Vue in development mode.
+Make sure to turn on production mode when deploying for production.
+See more tips at https://vuejs.org/guide/deployment.html
+2021-09-01 14:10:23-log: Debugger attached.
+
+2021-09-01 14:11:28-log: 14:11:09 [DEBUG]: In the constructor of HttpClient!
+14:11:27 [DEBUG]: iShow!
+JS: 'cc.ParticleSystem2D.color' hides inherited property 'cc.Renderable2D.color'. To make the current property override that implementation, add the `override: true` attribute please.
+
+2021-09-01 14:11:28-log: 14:11:28 [INFO]: In the default constructor of Map!
+14:11:28 [INFO]: In the default constructor of Map!
+JS: [WARN]: Read json failed: path: /Users/chandankrishnani/Documents/project/CocosCreator 2.app/Contents/Resources/resources/3d/engine-native/simulator/Debug/SimulatorApp-Mac.app/Contents/Resources/gamecaches/cacheList.json message: Unexpected end of JSON input
+
+2021-09-01 14:11:28-log: 14:11:28 [INFO]: Metal Feature Set: MTLFeatureSet_macOS_GPUFamily1_v4
+14:11:28 [INFO]: Device validator enabled.
+JS: Cocos Creator v3.3.0
+
+2021-09-01 14:11:50-log: JS: HELLLO !!!!
+
+2021-09-01 14:11:50-log: JS: Success to load scene
+
+2021-09-01 14:13:35-log: 14:11:50 [INFO]: Device thread detached.
+14:11:50 [INFO]: profiler|profiler-vs:vert|profiler-fs:frag compile succeed.
+14:11:50 [INFO]: standard|standard-vs|standard-fs compile succeed.
+14:11:50 [INFO]: standard|standard-vs|standard-fs|CC_FORWARD_ADD1 compile succeed.
+14:11:50 [INFO]: standard|shadow-caster-vs:vert|shadow-caster-fs:frag compile succeed.
+14:11:50 [INFO]: unlit|unlit-vs:vert|unlit-fs:frag compile succeed.
+14:11:50 [INFO]: clear-stencil|sprite-vs:vert|sprite-fs:frag compile succeed.
+14:11:50 [INFO]: sprite|sprite-vs:vert|sprite-fs:frag compile succeed.
+14:11:50 [INFO]: sprite|sprite-vs:vert|sprite-fs:frag|USE_TEXTURE1 compile succeed.
+14:11:50 [INFO]: sprite|sprite-vs:vert|sprite-fs:frag|USE_ALPHA_TEST1|USE_TEXTURE1 compile succeed.
+14:11:50 [INFO]: sprite|sprite-vs:vert|sprite-fs:frag|USE_TEXTURE1|IS_GRAY1 compile succeed.
+14:11:50 [INFO]: sprite|sprite-vs:vert|sprite-fs:frag|CC_USE_EMBEDDED_ALPHA1|USE_TEXTURE1 compile succeed.
+14:11:50 [INFO]: sprite|sprite-vs:vert|sprite-fs:frag|CC_USE_EMBEDDED_ALPHA1|USE_TEXTURE1|IS_GRAY1 compile succeed.
+14:11:50 [INFO]: graphics|vs:vert|fs:frag compile succeed.
+14:11:50 [INFO]: particle|particle-vs-legacy:lpvs_main|tinted-fs:add compile succeed.
+14:11:50 [INFO]: particle-gpu|particle-vs-gpu:gpvs_main|tinted-fs:add compile succeed.
+14:11:50 [INFO]: particle-trail|particle-trail:vs_main|tinted-fs:add compile succeed.
+14:11:50 [INFO]: billboard|vert:vs_main|tinted-fs:add compile succeed.
+14:11:50 [INFO]: spine|sprite-vs:vert|sprite-fs:frag compile succeed.
+14:11:50 [INFO]: planar-shadow|planar-shadow-vs:vert|planar-shadow-fs:frag compile succeed.
+14:11:50 [INFO]: planar-shadow|planar-shadow-vs:vert|planar-shadow-fs:frag|USE_INSTANCING1 compile succeed.
+14:11:50 [INFO]: skybox|sky-vs:vert|sky-fs:frag compile succeed.
+ScriptEngine::cleanup begin ...
+GC begin ..., (js->native map) size: 496, all objects: 781
+
+2021-09-01 14:13:35-log: XMLHttpRequest_finalize, 0x7fb9e9d1f0d0 ... 
+XMLHttpRequest_finalize, 0x7fb9e9c62f50 ... 
+XMLHttpRequest_finalize, 0x7fb9e9d1f340 ... 
+XMLHttpRequest_finalize, 0x7fb9e9c631c0 ... 
+XMLHttpRequest_finalize, 0x7fb9e9c647d0 ... 
+XMLHttpRequest_finalize, 0x7fb9e9c670b0 ... 
+XMLHttpRequest_finalize, 0x7fb9e74f3c50 ... 
+XMLHttpRequest_finalize, 0x7fb9e75ae970 ... 
+XMLHttpRequest_finalize, 0x7fb9e75b42a0 ... 
+XMLHttpRequest_finalize, 0x7fb9e7548ea0 ... 
+XMLHttpRequest_finalize, 0x7fb9e74c59f0 ... 
+GC end ..., (js->native map) size: 485, all objects: 781
+GC begin ..., (js->native map) size: 485, all objects: 770
+
+2021-09-01 14:13:35-log: GC end ..., (js->native map) size: 485, all objects: 770
+
+2021-09-01 14:13:35-log: GC begin ..., (js->native map) size: 0, all objects: -1
+Function object is released!
+GC end ..., (js->native map) size: 0, all objects: -1
+
+2021-09-01 14:13:35-log: ScriptEngine::cleanup end ...
+
+2021-09-01 15:00:33-error: [preview-error]Uncaught TypeError: addComponent: The component to add must be a constructor in http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js
