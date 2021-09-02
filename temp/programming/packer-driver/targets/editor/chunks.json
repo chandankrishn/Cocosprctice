@@ -1,11 +1,4 @@
 {
-  "assets/Scripts/Movement.js": {
-    "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js"
-    },
-    "physicalLocation": "fs/0/assets/Scripts/Movement.js",
-    "mTimestamp": 1630480030638
-  },
   "quick-pack:/cce/internal/x/cc.js": {
     "imports": {
       "__unresolved_0": {
@@ -94,41 +87,64 @@
       }
     },
     "physicalLocation": "cce/internal/x/cc.js",
-    "mTimestamp": 1630485405527,
+    "mTimestamp": 1630557232860,
     "isEntry": true,
     "exposeAs": "cce:/internal/x/cc"
+  },
+  "assets/Scripts/mousescene.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Scripts/mousescene.js",
+    "mTimestamp": 1630557737749
   },
   "assets/Scripts/Mouseevents.js": {
     "imports": {
       "cc": "quick-pack:/cce/internal/x/cc.js"
     },
     "physicalLocation": "fs/0/assets/Scripts/Mouseevents.js",
-    "mTimestamp": 1630487793508
+    "mTimestamp": 1630572765365
+  },
+  "assets/Scripts/pauseandresume.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Scripts/pauseandresume.js",
+    "mTimestamp": 1630572765434
+  },
+  "assets/Scripts/SwitchScene.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Scripts/SwitchScene.js",
+    "mTimestamp": 1630572765458
   },
   "assets/Scripts/Location.js": {
     "imports": {
       "cc": "quick-pack:/cce/internal/x/cc.js"
     },
     "physicalLocation": "fs/0/assets/Scripts/Location.js",
-    "mTimestamp": 1630490767407
+    "mTimestamp": 1630572765481
   },
   "quick-pack:/cce/internal/x/prerequisite-imports.js": {
     "imports": {
-      "__unresolved_1": "assets/Scripts/Location.js",
-      "__unresolved_2": "assets/Scripts/Mouseevents.js",
-      "__unresolved_3": "assets/Scripts/Movement.js",
-      "__unresolved_0": "assets/Scripts/Keyboard.js"
+      "__unresolved_0": "assets/Scripts/Location.js",
+      "__unresolved_1": "assets/Scripts/Mouseevents.js",
+      "__unresolved_4": "assets/Scripts/mousescene.js",
+      "__unresolved_3": "assets/Scripts/SwitchScene.js",
+      "__unresolved_5": "assets/Scripts/pauseandresume.js",
+      "__unresolved_2": "assets/Scripts/Movement.js"
     },
     "physicalLocation": "cce/internal/x/prerequisite-imports.js",
-    "mTimestamp": 1630491841034,
+    "mTimestamp": 1630578311300,
     "isEntry": true,
     "exposeAs": "cce:/internal/x/prerequisite-imports"
   },
-  "assets/Scripts/Keyboard.js": {
+  "assets/Scripts/Movement.js": {
     "imports": {
       "cc": "quick-pack:/cce/internal/x/cc.js"
     },
-    "physicalLocation": "fs/0/assets/Scripts/Keyboard.js",
-    "mTimestamp": 1630491841064
+    "physicalLocation": "fs/0/assets/Scripts/Movement.js",
+    "mTimestamp": 1630578311382
   }
 }

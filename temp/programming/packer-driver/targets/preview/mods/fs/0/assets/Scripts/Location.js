@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, _decorator, Component, Node, _dec, _class, _crd, ccclass, property, Location;
+  var _cclegacy, _decorator, Component, _dec, _class, _crd, ccclass, property, Location;
 
   function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; _setPrototypeOf(subClass, superClass); }
 
@@ -12,7 +12,6 @@ System.register(["cc"], function (_export, _context) {
       _cclegacy = _cc.cclegacy;
       _decorator = _cc._decorator;
       Component = _cc.Component;
-      Node = _cc.Node;
     }],
     execute: function () {
       _crd = true;
@@ -55,9 +54,7 @@ System.register(["cc"], function (_export, _context) {
           console.log('location of touch in Y' + touch.getLocation().y);
         };
 
-        _proto.onLoad = function onLoad() {
-          this.node.on(Node.EventType.TOUCH_START, this.onTouchStart, this);
-        } // update (deltaTime: number) {
+        _proto.onLoad = function onLoad() {} // update (deltaTime: number) {
         //     // [4]
         // }
         ;

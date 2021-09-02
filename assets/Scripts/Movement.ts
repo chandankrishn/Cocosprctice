@@ -1,5 +1,5 @@
 
-import { _decorator, Component, Node } from 'cc';
+import { _decorator, Component, Node, systemEvent, SystemEvent, SystemEventType, KeyCode, director, UITransformComponent, UITransform } from 'cc';
 const { ccclass, property } = _decorator;
 
 /**
@@ -22,31 +22,73 @@ export class Movement extends Component {
     // [2]
     // @property
     // serializableDummy = 0;
+    @property speed:number=0;
+    private flag:boolean=true;
+    public posx:number;
+    public posy:number;
 
     start () {
-        // [3]
-    }
-    @property speed:number=1000;
-    private flag:boolean=true;
-
-    update (deltaTime: number) 
-    {
-        if(this.flag && this.node.position.x< 480)
+        var rand=Math.random()*2;
+        rand=Math.floor(rand);
+        console.log("This is a start function  : " + rand);
+        if(this.posx==1)
         {
-            this.node.setPosition(this.node.position.x+this.speed*deltaTime,this.node.position.y);
+            console.log("yes random is 1 : and right dfunction is called");
+            this.movementRight();
+        }
+        else
+        {
+            console.log("It is moved to else left function is called");
+            this.movementLeft();
+        }
+        
+    }
+ 
+    onTouchStart(touch:any,event:any)
+    {
+        this.posx=touch.getLocation().x;
+        this.posy=touch.getLocation().y;
+        console.log('location of touch in X' + this.posx);
+        console.log('location of touch in Y' + this.posy);
+        console.log(this.node.parent.getComponent(UITransform).width);
+        if(this.posx<this.node.parent.getComponent(UITransform).width/2)
+        {
+            console.log("Character mved to left");
+            this.movementLeft();
+        }
+        else
+        {
+            console.log("Charcter moved to right");
+            this.movementRight();
         }
 
-      else
-      {
-
-          this.flag=false;
-          this.node.setPosition(this.node.position.x-this.speed*deltaTime,this.node.position.y);
-          if(this.node.position.x<-510)
-          {
-              this.flag=true;
-          }
-      }
     }
+    onLoad()
+    {
+        this.node.parent.on(Node.EventType.TOUCH_START,this.onTouchStart,this);
+    
+    
+    }
+    movementLeft()
+    {
+         this.speed = -100;
+    }
+    movementRight()
+    {
+            this.speed=100;   
+    }
+    update (deltaTime: number) 
+    {
+       
+        if(this.node.position.x<-420 || this.node.position.x>420)
+        {
+            console.log(" Hey game over !!");
+            director.pause();
+            director.loadScene('gameover');
+        }   
+        this.node.setPosition(this.node.position.x+this.speed*deltaTime,this.node.position.y);    
+    }
+ 
 }
 
 /**

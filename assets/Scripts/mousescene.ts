@@ -1,21 +1,21 @@
 
-import { _decorator, Component, Node } from 'cc';
+import { _decorator, Component, Node, director } from 'cc';
 const { ccclass, property } = _decorator;
 
 /**
  * Predefined variables
- * Name = Keyboard
- * DateTime = Wed Sep 01 2021 15:54:00 GMT+0530 (India Standard Time)
+ * Name = Mousescene
+ * DateTime = Thu Sep 02 2021 10:04:51 GMT+0530 (India Standard Time)
  * Author = chandan_krishnani
- * FileBasename = Keyboard.ts
- * FileBasenameNoExtension = Keyboard
- * URL = db://assets/Scripts/Keyboard.ts
+ * FileBasename = mousescene.ts
+ * FileBasenameNoExtension = mousescene
+ * URL = db://assets/Scripts/mousescene.ts
  * ManualUrl = https://docs.cocos.com/creator/3.3/manual/en/
  *
  */
  
-@ccclass('Keyboard')
-export class Keyboard extends Component {
+@ccclass('Mousescene')
+export class Mousescene extends Component {
     // [1]
     // dummy = '';
 
@@ -25,6 +25,14 @@ export class Keyboard extends Component {
 
     start () {
         // [3]
+    }
+    onLoad()
+    {
+        this.node.on(Node.EventType.MOUSE_DOWN,function(event:any){
+            director.loadScene('gameplay');
+
+        });
+
     }
 
     // update (deltaTime: number) {

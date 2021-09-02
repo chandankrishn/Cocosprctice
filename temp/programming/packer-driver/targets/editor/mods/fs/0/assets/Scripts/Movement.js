@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, _decorator, Component, _dec, _class, _class2, _descriptor, _temp, _crd, ccclass, property, Movement;
+  var _cclegacy, _decorator, Component, Node, director, UITransform, _dec, _class, _class2, _descriptor, _temp, _crd, ccclass, property, Movement;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -16,6 +16,9 @@ System.register(["cc"], function (_export, _context) {
       _cclegacy = _cc.cclegacy;
       _decorator = _cc._decorator;
       Component = _cc.Component;
+      Node = _cc.Node;
+      director = _cc.director;
+      UITransform = _cc.UITransform;
     }],
     execute: function () {
       _crd = true;
@@ -45,27 +48,62 @@ System.register(["cc"], function (_export, _context) {
           _initializerDefineProperty(this, "speed", _descriptor, this);
 
           _defineProperty(this, "flag", true);
+
+          _defineProperty(this, "posx", void 0);
+
+          _defineProperty(this, "posy", void 0);
         }
 
-        // [1]
-        // dummy = '';
-        // [2]
-        // @property
-        // serializableDummy = 0;
-        start() {// [3]
+        start() {
+          var rand = Math.random() * 2;
+          rand = Math.floor(rand);
+          console.log("This is a start function  : " + rand);
+
+          if (this.posx == 1) {
+            console.log("yes random is 1 : and right dfunction is called");
+            this.movementRight();
+          } else {
+            console.log("It is moved to else left function is called");
+            this.movementLeft();
+          }
+        }
+
+        onTouchStart(touch, event) {
+          this.posx = touch.getLocation().x;
+          this.posy = touch.getLocation().y;
+          console.log('location of touch in X' + this.posx);
+          console.log('location of touch in Y' + this.posy);
+          console.log(this.node.parent.getComponent(UITransform).width);
+
+          if (this.posx < this.node.parent.getComponent(UITransform).width / 2) {
+            console.log("Character mved to left");
+            this.movementLeft();
+          } else {
+            console.log("Charcter moved to right");
+            this.movementRight();
+          }
+        }
+
+        onLoad() {
+          this.node.parent.on(Node.EventType.TOUCH_START, this.onTouchStart, this);
+        }
+
+        movementLeft() {
+          this.speed = -100;
+        }
+
+        movementRight() {
+          this.speed = 100;
         }
 
         update(deltaTime) {
-          if (this.flag && this.node.position.x < 480) {
-            this.node.setPosition(this.node.position.x + this.speed * deltaTime, this.node.position.y);
-          } else {
-            this.flag = false;
-            this.node.setPosition(this.node.position.x - this.speed * deltaTime, this.node.position.y);
-
-            if (this.node.position.x < -510) {
-              this.flag = true;
-            }
+          if (this.node.position.x < -420 || this.node.position.x > 420) {
+            console.log(" Hey game over !!");
+            director.pause();
+            director.loadScene('gameover');
           }
+
+          this.node.setPosition(this.node.position.x + this.speed * deltaTime, this.node.position.y);
         }
 
       }, _temp), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "speed", [property], {
@@ -73,7 +111,7 @@ System.register(["cc"], function (_export, _context) {
         enumerable: true,
         writable: true,
         initializer: function () {
-          return 1000;
+          return 0;
         }
       })), _class2)) || _class));
       /**

@@ -4,9 +4,6 @@
     "cce:/internal/x/prerequisite-imports": "./mods/cce/internal/x/prerequisite-imports.js"
   },
   "scopes": {
-    "./mods/fs/0/assets/Scripts/Movement.js": {
-      "cc": "./mods/cce/internal/x/cc.js"
-    },
     "./mods/cce/internal/x/cc.js": {
       "__unresolved_0": "cce:/internal/x/cc-fu/base",
       "__unresolved_1": "cce:/internal/x/cc-fu/gfx-webgl",
@@ -25,19 +22,30 @@
       "__unresolved_14": "cce:/internal/x/cc-fu/spine",
       "__unresolved_15": "cce:/internal/x/cc-fu/dragon-bones"
     },
-    "./mods/fs/0/assets/Scripts/Mouseevents.js": {
+    "./mods/fs/0/assets/Scripts/mousescene.js": {
       "cc": "./mods/cce/internal/x/cc.js"
     },
     "./mods/fs/0/assets/Scripts/Location.js": {
       "cc": "./mods/cce/internal/x/cc.js"
     },
-    "./mods/cce/internal/x/prerequisite-imports.js": {
-      "__unresolved_2": "./mods/fs/0/assets/Scripts/Mouseevents.js",
-      "__unresolved_3": "./mods/fs/0/assets/Scripts/Movement.js",
-      "__unresolved_1": "./mods/fs/0/assets/Scripts/Location.js",
-      "__unresolved_0": "./mods/fs/0/assets/Scripts/Keyboard.js"
+    "./mods/fs/0/assets/Scripts/Mouseevents.js": {
+      "cc": "./mods/cce/internal/x/cc.js"
     },
-    "./mods/fs/0/assets/Scripts/Keyboard.js": {
+    "./mods/fs/0/assets/Scripts/SwitchScene.js": {
+      "cc": "./mods/cce/internal/x/cc.js"
+    },
+    "./mods/fs/0/assets/Scripts/pauseandresume.js": {
+      "cc": "./mods/cce/internal/x/cc.js"
+    },
+    "./mods/cce/internal/x/prerequisite-imports.js": {
+      "__unresolved_0": "./mods/fs/0/assets/Scripts/Location.js",
+      "__unresolved_1": "./mods/fs/0/assets/Scripts/Mouseevents.js",
+      "__unresolved_3": "./mods/fs/0/assets/Scripts/SwitchScene.js",
+      "__unresolved_4": "./mods/fs/0/assets/Scripts/mousescene.js",
+      "__unresolved_5": "./mods/fs/0/assets/Scripts/pauseandresume.js",
+      "__unresolved_2": "./mods/fs/0/assets/Scripts/Movement.js"
+    },
+    "./mods/fs/0/assets/Scripts/Movement.js": {
       "cc": "./mods/cce/internal/x/cc.js"
     }
   }

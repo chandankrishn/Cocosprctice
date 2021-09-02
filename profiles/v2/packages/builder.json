@@ -2,5 +2,66 @@
   "__version__": "1.2.8",
   "log": {
     "level": 4
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1630578740193": {
+        "id": "1630578740193",
+        "progress": 1,
+        "state": "success",
+        "message": "02-09-2021 16:08 Build success in 15382 ms!",
+        "options": {
+          "name": "PracticeProject1",
+          "platform": "web-desktop",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "sourceMaps": false,
+          "replaceSplashScreen": false,
+          "mainBundleCompressionType": "merge_dep",
+          "mainBundleIsRemote": false,
+          "mergeStartScene": false,
+          "experimentalEraseModules": false,
+          "compressTexture": true,
+          "packAutoAtlas": true,
+          "startScene": "85cb5e03-d10d-4958-a63d-3b87bc37629a",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/Start.scene",
+              "uuid": "85cb5e03-d10d-4958-a63d-3b87bc37629a",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/Scenes/gameplay.scene",
+              "uuid": "3d85a610-fb7c-4dd8-b523-06c0cf56d9de",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/Scenes/gameover.scene",
+              "uuid": "4a12ee07-394d-4623-8fab-e437d4d6a7f9",
+              "inBundle": false
+            }
+          ],
+          "outputName": "web-desktop",
+          "packages": {
+            "web-desktop": {
+              "resolution": {
+                "designWidth": 1280,
+                "designHeight": 960
+              },
+              "polyfills": {
+                "asyncFunctions": true
+              }
+            },
+            "cocos-service": {
+              "configID": "8305f7",
+              "services": []
+            }
+          }
+        },
+        "time": "02-09-2021 16:08",
+        "dirty": false
+      }
+    }
   }
 }

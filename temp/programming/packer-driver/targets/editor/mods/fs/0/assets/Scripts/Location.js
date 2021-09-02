@@ -1,14 +1,13 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, _decorator, Component, Node, _dec, _class, _crd, ccclass, property, Location;
+  var _cclegacy, _decorator, Component, _dec, _class, _crd, ccclass, property, Location;
 
   return {
     setters: [function (_cc) {
       _cclegacy = _cc.cclegacy;
       _decorator = _cc._decorator;
       Component = _cc.Component;
-      Node = _cc.Node;
     }],
     execute: function () {
       _crd = true;
@@ -45,9 +44,7 @@ System.register(["cc"], function (_export, _context) {
           console.log('location of touch in Y' + touch.getLocation().y);
         }
 
-        onLoad() {
-          this.node.on(Node.EventType.TOUCH_START, this.onTouchStart, this);
-        } // update (deltaTime: number) {
+        onLoad() {} // update (deltaTime: number) {
         //     // [4]
         // }
 

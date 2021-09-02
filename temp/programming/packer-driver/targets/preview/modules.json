@@ -1,6 +1,6 @@
 {
   "cce:/internal/x/cc": {
-    "mTimestamp": 8745.170787000097,
+    "mTimestamp": 8904.029765000101,
     "chunkId": "quick-pack:/cce/internal/x/cc.js",
     "imports": [
       {
@@ -299,11 +299,11 @@
     ]
   },
   "cce:/internal/x/prerequisite-imports": {
-    "mTimestamp": 6456630.596675001,
+    "mTimestamp": 21097840.691381,
     "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
     "imports": [
       {
-        "value": "file:///Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/Keyboard.ts",
+        "value": "file:///Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/Location.ts",
         "rewritten": "__unresolved_0",
         "loc": {
           "start": {
@@ -317,7 +317,7 @@
         }
       },
       {
-        "value": "file:///Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/Location.ts",
+        "value": "file:///Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/Mouseevents.ts",
         "rewritten": "__unresolved_1",
         "loc": {
           "start": {
@@ -326,12 +326,12 @@
           },
           "end": {
             "line": 5,
-            "column": 97
+            "column": 100
           }
         }
       },
       {
-        "value": "file:///Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/Mouseevents.ts",
+        "value": "file:///Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/Movement.ts",
         "rewritten": "__unresolved_2",
         "loc": {
           "start": {
@@ -340,12 +340,12 @@
           },
           "end": {
             "line": 6,
-            "column": 100
+            "column": 97
           }
         }
       },
       {
-        "value": "file:///Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/Movement.ts",
+        "value": "file:///Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/SwitchScene.ts",
         "rewritten": "__unresolved_3",
         "loc": {
           "start": {
@@ -354,7 +354,35 @@
           },
           "end": {
             "line": 7,
-            "column": 97
+            "column": 100
+          }
+        }
+      },
+      {
+        "value": "file:///Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/mousescene.ts",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 7
+          },
+          "end": {
+            "line": 8,
+            "column": 99
+          }
+        }
+      },
+      {
+        "value": "file:///Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/pauseandresume.ts",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 7
+          },
+          "end": {
+            "line": 9,
+            "column": 103
           }
         }
       }
@@ -363,10 +391,6 @@
       "type": "esm"
     },
     "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "file:///Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/Keyboard.ts"
-      },
       {
         "isExternal": false,
         "url": "file:///Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/Location.ts"
@@ -378,11 +402,23 @@
       {
         "isExternal": false,
         "url": "file:///Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/Movement.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/SwitchScene.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/mousescene.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/pauseandresume.ts"
       }
     ]
   },
   "file:///Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/Movement.ts": {
-    "mTimestamp": 1630480025522.5615,
+    "mTimestamp": 1630578309238.7034,
     "chunkId": "assets/Scripts/Movement.js",
     "imports": [
       {
@@ -393,11 +429,11 @@
         "loc": {
           "start": {
             "line": 2,
-            "column": 44
+            "column": 141
           },
           "end": {
             "line": 2,
-            "column": 48
+            "column": 145
           }
         }
       }
@@ -417,7 +453,7 @@
     ]
   },
   "file:///Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/Mouseevents.ts": {
-    "mTimestamp": 1630487791824.7874,
+    "mTimestamp": 1630572764177.5364,
     "chunkId": "assets/Scripts/Mouseevents.js",
     "imports": [
       {
@@ -452,7 +488,7 @@
     ]
   },
   "file:///Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/Location.ts": {
-    "mTimestamp": 1630490756966.7234,
+    "mTimestamp": 1630572761193.357,
     "chunkId": "assets/Scripts/Location.js",
     "imports": [
       {
@@ -486,9 +522,10 @@
       }
     ]
   },
-  "file:///Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/Keyboard.ts": {
-    "mTimestamp": 1630491840992.5808,
-    "chunkId": "assets/Scripts/Keyboard.js",
+  "file:///Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/Keyboard.ts": null,
+  "file:///Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/SwitchScene.ts": {
+    "mTimestamp": 1630572759609.4758,
+    "chunkId": "assets/Scripts/SwitchScene.js",
     "imports": [
       {
         "value": "cc"
@@ -498,11 +535,81 @@
         "loc": {
           "start": {
             "line": 2,
-            "column": 44
+            "column": 107
           },
           "end": {
             "line": 2,
-            "column": 48
+            "column": 111
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/mousescene.ts": {
+    "mTimestamp": 1630557736527.5007,
+    "chunkId": "assets/Scripts/mousescene.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 54
+          },
+          "end": {
+            "line": 2,
+            "column": 58
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/pauseandresume.ts": {
+    "mTimestamp": 1630572757913.6506,
+    "chunkId": "assets/Scripts/pauseandresume.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 118
+          },
+          "end": {
+            "line": 2,
+            "column": 122
           }
         }
       }

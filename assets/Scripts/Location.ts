@@ -35,7 +35,7 @@ export class Location extends Component {
     }
     onLoad()
     {
-        this.node.on(Node.EventType.TOUCH_START,this.onTouchStart,this);
+      
     }
 
     // update (deltaTime: number) {

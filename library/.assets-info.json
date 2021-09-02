@@ -1,6 +1,6 @@
 {
   "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scenes": {
-    "time": 1630473254281.7036,
+    "time": 1630576924398.4902,
     "uuid": "6d926002-237f-47a3-94a7-2b9e4bc8aeee",
     "missing": false
   },
@@ -8,7 +8,7 @@
     "time": 1630472860004.1223
   },
   "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts": {
-    "time": 1630491840993.8171,
+    "time": 1630566715297.812,
     "uuid": "79c61d9a-b6f4-462b-b2a0-1f3b8815771c",
     "missing": false
   },
@@ -16,7 +16,7 @@
     "time": 1630472868926.2036
   },
   "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Images": {
-    "time": 1630473379999.284,
+    "time": 1630576945124.3162,
     "uuid": "a7525cfc-2e9e-4935-b155-0db851ef5d3f",
     "missing": false
   },
@@ -24,7 +24,7 @@
     "time": 1630472878616.3684
   },
   "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scenes/Start.scene": {
-    "time": 1630489854763.698,
+    "time": 1630579991231.1616,
     "uuid": "85cb5e03-d10d-4958-a63d-3b87bc37629a",
     "missing": false
   },
@@ -48,7 +48,7 @@
     "time": 1630473066332.7
   },
   "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scenes/gameplay.scene": {
-    "time": 1630480745984.9568,
+    "time": 1630576930530.5369,
     "uuid": "3d85a610-fb7c-4dd8-b523-06c0cf56d9de",
     "missing": false
   },
@@ -67,7 +67,7 @@
     "time": 1630473372867.6748
   },
   "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/Movement.ts": {
-    "time": 1630480025522.5615,
+    "time": 1630578309238.7034,
     "uuid": "3596e72f-5e1a-4651-b2e0-39eda4258478",
     "missing": false
   },
@@ -75,7 +75,7 @@
     "time": 1630473480349.0144
   },
   "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/Mouseevents.ts": {
-    "time": 1630487791824.7874,
+    "time": 1630572764177.5364,
     "uuid": "4ca171f9-391c-4046-95e1-547ec56d36d4",
     "missing": false
   },
@@ -83,19 +83,54 @@
     "time": 1630480777488.5398
   },
   "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/Location.ts": {
-    "time": 1630490756966.7234,
+    "time": 1630572761193.357,
     "uuid": "18978fbf-4177-4236-b50a-b31083f082e9",
     "missing": false
   },
   "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/Location.ts.meta": {
     "time": 1630490361560.0085
   },
-  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/Keyboard.ts": {
-    "time": 1630491840992.5808,
-    "uuid": "4e32bbc3-b191-4cfe-8a76-5fb1bf37a22c",
-    "missing": false
-  },
   "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/Keyboard.ts.meta": {
     "time": 1630491840996.6
+  },
+  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/SwitchScene.ts": {
+    "time": 1630572759609.4758,
+    "uuid": "4fc581e0-9ef7-471f-b69a-b52aedc6a7e8",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/SwitchScene.ts.meta": {
+    "time": 1630498862551.4775
+  },
+  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/mousescene.ts": {
+    "time": 1630557736527.5007,
+    "uuid": "9baa5eef-7d79-4398-aef6-225a3c45125d",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/mousescene.ts.meta": {
+    "time": 1630557292005.975
+  },
+  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/pauseandresume.ts": {
+    "time": 1630572757913.6506,
+    "uuid": "763e246d-300f-4d0e-be86-91e6cbf3d13c",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scripts/pauseandresume.ts.meta": {
+    "time": 1630566715301.6638
+  },
+  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scenes/gameover.scene": {
+    "time": 1630577148098.974,
+    "uuid": "4a12ee07-394d-4623-8fab-e437d4d6a7f9",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Scenes/gameover.scene.meta": {
+    "time": 1630576924416.517
+  },
+  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Images/download.jpeg": {
+    "time": 1630576945122.979,
+    "uuid": "b2925d9b-2fb6-4565-b90e-52df6c507af1",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/PracticeProject1/assets/Images/download.jpeg.meta": {
+    "time": 1630576945157.342
   }
 }
